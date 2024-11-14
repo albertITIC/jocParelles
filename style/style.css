@@ -1,0 +1,35 @@
+/* INDEX */
+body{
+    background-color: #a4eda5;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+/* JOC (joc.html) */
+h1{
+    display: flex;
+    align-items: center;
+}
+
+.area-joc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

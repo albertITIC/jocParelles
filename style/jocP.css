@@ -1,0 +1,26 @@
+.area-joc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta {
+    width: 50px;
+    height: 70px;
+    background-color: lightgray;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.carta.girada {
+    background-color: white;
+}
+
+.carta.emparellada {
+    background-color: green;
+    color: white;
+}
